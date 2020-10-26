@@ -1,0 +1,28 @@
+.card {
+  align-items: center;
+  background-color: white;
+  border: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  margin: 200px auto;
+  width: 600px;
+}
+
+.card__timer {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 72px;
+  display: block;
+}
+
+p {
+  font-size: 48px;
+}
