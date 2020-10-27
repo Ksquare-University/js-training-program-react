@@ -9,8 +9,12 @@ export function Root() {
         <Link to="/events">Events</Link>
       </div>
 
-      <div>
+      <div style={{ marginBottom: "16px" }}>
         <Link to="/lifeCycle">Life Cycle</Link>
+      </div>
+
+      <div>
+        <Link to="/counter">Counter</Link>
       </div>
     </div>
   );

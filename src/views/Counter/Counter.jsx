@@ -36,6 +36,8 @@ import { CounterView } from "./CounterView";
  *  Message
  *    - only visible if the value of the counter is greater than or equal to GOAL value
  *
+ *  Once the goal has been reached the step buttons should be disabled
+ *
  * This exercise test:
  *  - props
  *  - state
@@ -51,6 +53,7 @@ import { CounterView } from "./CounterView";
 
 export class Counter extends React.Component {
   // TODO: Implement me!
+  state = {};
 
   render() {
     return <CounterView />;

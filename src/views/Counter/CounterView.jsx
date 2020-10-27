@@ -45,7 +45,7 @@ export function CounterView() {
             </button>
           </div>
         </form>
-        {/* This is the place for <SuccessMessage component */}
+        {/* This is the place for <SuccessMessage /> component */}
       </div>
     </main>
   );

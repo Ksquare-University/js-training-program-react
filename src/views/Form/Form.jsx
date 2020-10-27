@@ -21,6 +21,7 @@ export class Form extends React.Component {
       <main className="main">
         <div className="login__card">
           <h1 className="header">Super Duper Login</h1>
+
           <form className="form" onSubmit={this.handleSubmit}>
             <div className="fields__container">
               <div className="field">
@@ -43,7 +44,7 @@ export class Form extends React.Component {
             </div>
 
             <div className="button__container">
-              <button className="button" type="submit">
+              <button className="button" type="button">
                 Submit
               </button>
             </div>

@@ -4,13 +4,10 @@ import "./Timer.css";
 // Let's add state to Timer component!!
 
 class TimerTiny extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { date: new Date().toLocaleTimeString, comments: [] };
-  }
+  state = { date: new Date().toLocaleTimeString };
 
   componentDidMount() {
-    const time = this.props.time || 1000;
+    const time = this.props.time && 1000;
     this.timerID = setInterval(() => this.tick(), time);
   }
 
@@ -18,9 +15,9 @@ class TimerTiny extends React.Component {
     clearInterval(this.timerID);
   }
 
-  tick() {
+  tick = () => {
     this.setState({ date: new Date().toLocaleTimeString() });
-  }
+  };
 
   render() {
     return (
