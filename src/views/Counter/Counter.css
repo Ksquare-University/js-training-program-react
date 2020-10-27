@@ -1,0 +1,84 @@
+.counter-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(61, 61, 61, 0.2) 0 2px 12px 0;
+  padding: 40px 24px 40px;
+  width: 460px;
+}
+
+.counter-card__title {
+  display: block;
+  font-family: sans-serif;
+  font-size: 48px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.counter-form {
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.counter-form__container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.field_first {
+  margin-bottom: 16px;
+}
+
+.container-button_first {
+  margin-bottom: 16px;
+}
+
+.container-button {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.counter-form__button {
+  background-color: blue;
+  border-style: none;
+  box-shadow: #022d99 0 4px 0 0;
+  color: white;
+  height: 58px;
+  outline: none;
+  width: 50%;
+}
+
+.counter-form__button:disabled {
+  background-color: gray;
+  border-style: none;
+  box-shadow: #505358 0 4px 0 0;
+}
+
+.counter-form__button:active {
+  box-shadow: #022d99 0 0 0 0;
+  outline: none;
+}
+
+.counter-form__button_step {
+  background-color: rgb(228, 101, 112);
+  box-shadow: rgb(230, 52, 76) 0 4px 0 0;
+  font-size: 48px;
+  width: 25%;
+}
+
+.container-counter {
+  display: flex;
+  justify-content: center;
+}
+
+.counter {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.success-message {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+}
