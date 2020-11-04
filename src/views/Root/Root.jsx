@@ -16,6 +16,10 @@ export function Root() {
       <div>
         <Link to="/counter">Counter</Link>
       </div>
+
+      <div>
+        <Link to="/hooks">Timer Hooks</Link>
+      </div>
     </div>
   );
 }
